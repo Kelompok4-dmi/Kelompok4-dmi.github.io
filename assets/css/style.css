@@ -1,0 +1,39 @@
+body {
+  color: #444;
+  background: #fefcf3;
+}
+
+.header-image {
+  display: none;
+}
+
+#hero-area {
+  background-image: url(https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+}
+
+.navbar-area {
+  background-color: #364543 !important;
+  margin-top: 0 !important;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 736px) {
+  .navbar-area {
+    margin-top: 0 !important;
+  }
+  #hero-area {
+    margin-top: 40px;
+  }
+}
