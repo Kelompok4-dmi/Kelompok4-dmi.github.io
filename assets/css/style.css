@@ -23,6 +23,13 @@ body {
   margin-top: 0 !important;
 }
 
+h2.amount{
+  font-size: 40px !important;
+}
+.primary-btn:hover{
+  color: #364543;
+}
+
 .map-container {
   display: flex;
   justify-content: center;
@@ -35,5 +42,11 @@ body {
   }
   #hero-area {
     margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px){
+  .navbar-area.navbar-nine .navbar .navbar-collapse {
+    display: none !important;
   }
 }
