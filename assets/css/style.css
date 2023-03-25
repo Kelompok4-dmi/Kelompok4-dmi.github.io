@@ -1,6 +1,12 @@
+
+
 body {
   color: #444;
   background: #fefcf3;
+}
+
+s{
+  color: var(--primary);
 }
 
 .header-image {
