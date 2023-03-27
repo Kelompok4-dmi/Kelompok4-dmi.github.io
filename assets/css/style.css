@@ -1,11 +1,9 @@
-
-
 body {
   color: #444;
   background: #fefcf3;
 }
 
-s{
+s {
   color: var(--primary);
 }
 
@@ -29,14 +27,20 @@ s{
   margin-top: 0 !important;
 }
 
-h2.amount{
+h2.amount {
   font-size: 40px !important;
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
   color: #364543;
 }
+
 .contact-item {
   width: auto;
+}
+
+.btn-wa {
+  margin-bottom: 3rem;
 }
 
 .map-container {
@@ -45,13 +49,20 @@ h2.amount{
   justify-content: center;
   align-items: center;
 }
-.sidebar-social>.lni{
+
+.sidebar-social>.lni {
   font-size: 100px !important;
 }
-.lni{
+
+.lni {
   color: var(--primary);
 }
-.lni-chevron-up, .lni-map-marker, .lni-phone, .lni-alarm-clock{
+
+.lni-chevron-up,
+.lni-map-marker,
+.lni-phone,
+.lni-alarm-clock,
+.lni-whatsapp {
   color: #fff;
 }
 
@@ -60,12 +71,19 @@ h2.amount{
     margin-top: 0 !important;
     height: 10rem;
   }
+
   #hero-area {
     margin-top: 4rem;
   }
+
+  .sidebar-social {
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px){
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .navbar-area.navbar-nine .navbar .navbar-collapse {
     display: none !important;
   }
