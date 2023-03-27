@@ -35,8 +35,12 @@ h2.amount{
 .primary-btn:hover{
   color: #364543;
 }
+.contact-item {
+  width: auto;
+}
 
 .map-container {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +51,7 @@ h2.amount{
 .lni{
   color: var(--primary);
 }
-.lni-chevron-up{
+.lni-chevron-up, .lni-map-marker, .lni-phone, .lni-alarm-clock{
   color: #fff;
 }
 
