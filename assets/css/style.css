@@ -35,13 +35,23 @@ h2.amount{
   justify-content: center;
   align-items: center;
 }
+.sidebar-social>.lni{
+  font-size: 100px !important;
+}
+.lni{
+  color: var(--primary);
+}
+.lni-chevron-up{
+  color: #fff;
+}
 
 @media (max-width: 736px) {
   .navbar-area {
     margin-top: 0 !important;
+    height: 10rem;
   }
   #hero-area {
-    margin-top: 40px;
+    margin-top: 4rem;
   }
 }
 
