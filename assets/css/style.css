@@ -55,7 +55,7 @@ h2.amount {
 }
 
 #blog {
-  display: none;
+  display: none !important;
 }
 
 
