@@ -54,6 +54,10 @@ h2.amount {
   font-size: 100px !important;
 }
 
+#blog {
+  display: none;
+}
+
 
 .lni-facebook,
 .lni-instagram-original,
